@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eac59782cff2e64ea8dfbb71bc13fe7, type: 3}
+  m_Name: Fireball Ability
+  m_EditorClassIdentifier: 
+  itemID: bb18d2b4-a425-4c14-8c08-40670d8ce8bf
+  displayName: Fireball Ability
+  description: 
+  icon: {fileID: 21300000, guid: 5732dc58816b91d4dbc488b1b3c8f08b, type: 3}
+  pickup: {fileID: 2211437023775121198, guid: bc751394949388f4b9270cb19b495c63, type: 3}
+  stackable: 0
+  price: 30
+  itemCategory: 5
+  consumable: 0
+  targetingStrategy: {fileID: 11400000, guid: 45115f94914d3944aacd97c21365ec4c, type: 2}
+  filteringStrategies:
+  - {fileID: 11400000, guid: fa7de684228a9eb4f8bf96dee78170b7, type: 2}
+  effectStrategies:
+  - {fileID: 11400000, guid: 3087d2d6c09f798479d49c69368f47b9, type: 2}
+  - {fileID: 11400000, guid: 44c21f1a5ba8f144b87f11d3cd4575a2, type: 2}
+  cooldownTime: 2
+  manaRequired: 100

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb05ae7210a424a49bdd00dfb7bbfe6a, type: 3}
+  m_Name: DelayedClickTargeting
+  m_EditorClassIdentifier: 
+  texture2D: {fileID: 2800000, guid: 2a2b4775272c890448e1bd6239fdfc84, type: 3}
+  hotspot: {x: 0, y: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  areaEffectRadius: 5
+  summonCircle: {fileID: 4654374066789327045, guid: fcb08e9a56f39764983af90e8612776f,
+    type: 3}
